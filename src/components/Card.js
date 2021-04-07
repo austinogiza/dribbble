@@ -41,7 +41,7 @@ const Card = () => {
 
 const Body = styled.div`
 width: 100%;
-min-height: 100%;
+min-height: 100px;
 display: grid;
 grid-template-rows: repeat(3,1fr);
 grid-gap: 20px;
