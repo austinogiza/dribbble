@@ -7,5 +7,7 @@ export const colorThemes ={
     green : "#bcdaa5",
     darkGreen: "#51693E",
     darkRed: "#B06D30",
-    darkLavender : "#3A4774"
+    darkLavender : "#3A4774",
+    grey: "#BFC2C1",
+    black: "#000"
 }
