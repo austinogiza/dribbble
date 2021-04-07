@@ -24,7 +24,7 @@ const MainSection = () => {
         <Payment/>
    <Tabcover> <Tabbody>
         {name.map(name=>
-            <Tab key={ name.id} name={name.name}/>
+            <Tab key={name.id} name={name.name}/>
         )}
         </Tabbody></Tabcover>
         <Section>
@@ -73,6 +73,7 @@ grid-template-columns: repeat(2,1fr);
 grid-auto-rows: minmax(200px,auto);
 @media only screen and (max-width: 650px){
     grid-template-columns: repeat(1,1fr);
+    place-items: center;
 }
 `
 

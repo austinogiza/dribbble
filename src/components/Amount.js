@@ -35,7 +35,7 @@ const Amount = ({name}) => {
 
 </Header>
 
-<Details height={height}>
+<Details  transition={{opacity: 1, duration: 0.3}} initial={{opacity:1}}  height={height}>
 <Text>
     <Name>Leather mini-bag</Name><AmountText>&#36;1850.00</AmountText>
 </Text>
@@ -91,7 +91,7 @@ overflow: hidden;
 width: 100%;
 padding: 20px;
 transition: 0.3s ease-in;
-display: ${props=> props.height? "flex" :"none"};
+height: ${props=> props.height? "400px" :"0px"};
 flex-direction: column;
 
 `

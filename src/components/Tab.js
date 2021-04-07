@@ -9,6 +9,9 @@ const Tab = ({name}) => {
 const handleSelect =(name)=>{
     setSelected(name)
     setActive(active === true ? "active" : "")
+    if(selected){
+
+    }
   
     
 

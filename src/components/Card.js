@@ -44,9 +44,12 @@ width: 100%;
 min-height: 100px;
 display: grid;
 grid-template-rows: repeat(3,1fr);
+
 grid-gap: 20px;
 grid-auto-rows: minmax(150px,auto);
-
+@media only screen and (max-width: 650px){
+    place-items: center;
+}
 `
 const Cards = styled.div`
 max-width: 300px;
