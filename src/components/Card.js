@@ -49,7 +49,8 @@ grid-auto-rows: minmax(150px,auto);
 
 `
 const Cards = styled.div`
-width: 300px;
+max-width: 300px;
+width: 100%;
 cursor: pointer;
 height: 150px;
 padding: 20px 20px 0 20px;
@@ -90,7 +91,8 @@ color: ${colorThemes.darkLavender};
 `
 
 const LavenderCards = styled.div`
-width: 300px;
+max-width: 300px;
+width: 100%;
 height: 150px;
 padding: 20px 20px 0 20px;
 cursor: pointer;
@@ -109,7 +111,8 @@ height: 100%;
 position: absolute;
 `
 const GreenCards = styled.div`
-width: 300px;
+max-width: 300px;
+width: 100%;
 height: 150px;
 padding: 30px;
 cursor: pointer;

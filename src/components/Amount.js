@@ -91,7 +91,7 @@ overflow: hidden;
 width: 100%;
 padding: 20px;
 transition: 0.3s ease-in;
-height: ${props=> props.height? "400px" :"0px"};
+display: ${props=> props.height? "flex" :"none"};
 flex-direction: column;
 
 `
