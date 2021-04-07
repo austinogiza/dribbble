@@ -94,6 +94,13 @@ font-style: normal;
 font-weight: 400;
 line-height: 1.4;
 border-radius: 10px;
+transition: 0.3s ease-in;
+:hover{
+    transition: 0.3s ease-in;
+    background: ${colorThemes.white};
+color: ${colorThemes.black}; 
+border: 1px solid ${colorThemes.black}; 
+}
 @media only screen and (max-width: 650px){
     font-size: 14px;
 }

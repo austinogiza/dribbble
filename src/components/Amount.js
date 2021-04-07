@@ -12,7 +12,7 @@ const Amount = ({name}) => {
 
     function handleClick(){
         setActive(active === "" ? "active": "")
-        setClicked(active === "active"? false : true)
+        setClicked(active === "active" ? false : true)
         setHeight(active === "active" ? false : true)
 
     }
@@ -90,7 +90,8 @@ const Details = styled(motion.div)`
 overflow: hidden;
 width: 100%;
 padding: 20px;
-transition: 0.3s ease-in;
+transition: 0.4s ease-in;
+display: ${props=> props.height? "flex" :"none"};
 height: ${props=> props.height? "400px" :"0px"};
 flex-direction: column;
 

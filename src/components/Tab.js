@@ -6,12 +6,15 @@ const Tab = ({name}) => {
     const [selected, setSelected] = useState("Credit Card")
     const [active, setActive ] = useState(false)
 
+
 const handleSelect =(name)=>{
     setSelected(name)
-    setActive(active === true ? "active" : "")
-    if(selected){
+    setActive(!active)
 
-    }
+
+
+
+   
   
     
 
@@ -20,7 +23,7 @@ const handleSelect =(name)=>{
      <Body>
 
 <Tabcontent>
-<TabName onClick={() => handleSelect(name)} className={selected === name ? "active" : ""}>
+<TabName onClick={() => handleSelect(name)}  className={selected === name ? "active": ""}>
     {name}
 </TabName>
 </Tabcontent>
